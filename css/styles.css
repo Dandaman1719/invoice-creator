@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Inter', serif;
+}
+/* Typography */
+
+h1 {
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 60px;
+}
+
+h1 p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.task-description {
+    color: #D5D4D8;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.note-description {
+    color: #D5D4D8;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.invoice-container {
+    background-color: #1F2937;
+    height: 719px;
+    width: 550px;
+    margin: auto;
+}
+
+.header {
+    background-color: #3A69D2;
+    text-align: center;
+    width: 550px;
+    height: 190px;
+}
+
+.task-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.service-btn {
+    background-color: #D1D4F4;
+    color: #4A4E74;
+    border: 1px solid #D5D4D8;
+    width: 142px;
+    height: 45px;
+    border-radius: 7px;
+    margin: 41px 22px 0;
+}
+
+.task-description-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 20px;
+}
+
+hr {
+    border: 1px solid #C3C6DB;
+    width: 525px;
+    margin: 40px 10px;
+}
+
+.note-description-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 20px;
+}
+
+.net-amount {
+    display: block;
+    text-align: center;
+}
+
+.invoice-btn-container {
+    margin: 142px 39px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.send-invoice-btn {
+    background-color: #3A69D2;
+    border-radius: 7px;
+    border: none;
+    color: white;
+    height: 45px;
+    width: 473px;
+
+
+}

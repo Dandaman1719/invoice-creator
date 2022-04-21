@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invoice Creator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <div class="invoice-container">
+        <section class="header">
+            <h1>Invoice Creator</h1>
+            <p>Thanks for choosing GoodCorp, LLC</p>
+        </section>
+        <section class="task-buttons">
+            <button id="wash-car" class="service-btn">Wash Car: $10</button>
+            <button class="service-btn" id="mow-lawn">Mow Lawn: $20</button>
+            <button class="service-btn" id="pull-weeds">Pull Weeds: $30</button>
+        </section>
+        <section class="task-description-container">
+            <span class="task-description">Task</span>
+            <span class="task-description">Total</span>
+        </section>
+        <section class="services-container">
+
+        </section>
+        <hr>
+        <section class="note-description-container">
+            <span class="note-description">Notes</span>
+            <span class="note-description">Total Amount<span class="net-amount">$0</span></span>
+        </section>
+        <section class="invoice-btn-container">
+            <button class="send-invoice-btn" id="invoice-btn">Send Invoice</button>
+        </section>
+
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
